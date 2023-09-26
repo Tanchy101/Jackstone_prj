@@ -25,7 +25,7 @@
                             </div>
                         </div>
 
-                        <div class="row mb-4">
+                        <div class="row mb-5">
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
@@ -53,6 +53,7 @@
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
+                                
                             </div>
                         </div>
 
