@@ -2,12 +2,12 @@
 @section('content')
 <div class="card">
   <div class="card-header">
-    Featured
+    ITO ANG INDEX PAGE
   </div>
   <div class="card-body">
     
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-text">Dito yung page na mapupunta yung user pag click ng page</p>
+    <a href="#" class="btn btn-primary">Login ka muna bai</a>
   </div>
 </div>
 @endsection
