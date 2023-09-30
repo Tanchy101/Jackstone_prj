@@ -1,41 +1,35 @@
 #card-marg {
-    margin-top: 120px;
+    margin-top: 75px;
     margin-right: -40px;
     border-radius: 5%;
-    height: 400px;
+    height: 450px;
 }
 
 #card-hdr {
-    border-radius: 5%;
     font-size: x-large;
-    text-align: center;
-    height: 50px;
-}
-
-.hdr {
-    margin-top: 10px;
+    margin-left: 12%;
+    margin-top: 25px;
 }
 
 #textbox {
-    margin-left: 35px;
+    margin-left: 45px;
 }
 
 #btnreg {
     background-color: #ff5757;
-    margin-left: -150px;
-    margin-top: 35px;
-    width: 435px ;
-    height: 45px;
-    border-radius: 2%;
+    margin-left: -126px;
+    margin-top: 20px;
+    width: 400px ;
+    height: 50px;
     
 }
 
 .logo {
-    margin-top: 70px;
-    margin-right: 170px;
+    margin-top: 50px;
+    margin-right: 100px;
     
 }
 
  #logo-container {
-    margin-left: -190px;
+    margin-left: -120px;
 }
