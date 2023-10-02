@@ -1,4 +1,43 @@
 
-.card {
-  margin-top: 200px;
+.card{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: -50px;
+    height: 400px;
+    width: 575px;
+    border-radius: 25px;
+}
+
+.card-header{
+    font-size: x-large;
+    margin-left: 14%;
+    margin-top: 25px;
+}
+
+.card-body{
+    margin-left: 14%;
+}
+
+.btn{
+    background-color:#ff5757;
+    height: 50px;
+    width: 375px;
+    margin-left: -160px;
+    border-radius: 10px;
+}
+
+.btn-link{
+    color: white;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-right: 100px;
+    
+}
+
+#logo-container {
+    margin-left: -120px;
 }
