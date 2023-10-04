@@ -8,7 +8,7 @@
 
 #card-hdr {
     font-size: x-large;
-    margin-left: 17%;
+    margin-left: 19%;
     margin-top: 25px;
 }
 
@@ -25,10 +25,33 @@
     border-radius: 10px;
 }
 
+.float-container{
+    margin-left: 90px;
+    width: 50%;
+}
+
+.float-child{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.alr{
+    margin-top: 7px;
+    color: #246bd4;
+    font-size: small;
+
+}
+
+.btn-login{
+    border-color: transparent;
+    background-color: transparent;
+    font-size: large;
+}
+
 .logo {
     margin-top: 50px;
     margin-right: 100px;
-    
 }
 
 #logo-container {

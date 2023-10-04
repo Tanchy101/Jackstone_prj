@@ -12,6 +12,8 @@
     font-size: x-large;
     margin-left: 14%;
     margin-top: 25px;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .card-body{
@@ -20,6 +22,7 @@
 
 .btn{
     background-color:#ff5757;
+    color: white;
     height: 50px;
     width: 375px;
     margin-left: -160px;
@@ -27,7 +30,8 @@
 }
 
 .btn-link{
-    color: white;
+    color: black;
+    text-decoration: underline;
     background-color: transparent;
     margin-top: 20px;
 }

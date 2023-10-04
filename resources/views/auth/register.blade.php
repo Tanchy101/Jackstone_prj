@@ -70,6 +70,20 @@
                             </div>
                         </div>
                     </form>
+
+                    <div class="row mb-0">
+                                <div class="float-container">
+                                    <div class="float-child">
+                                        <div class="alr">Already Signed?</div>
+                                    </div>
+                                   
+                                    <div class="float-child">
+                                        <button id="btn btn-link" type="submit" class="btn-login">
+                                            {{ __('Log In') }}
+                                        </button>
+                                    </div>
+                                </div>
+                        </div>
                 </div>
             </div>
         </div>
