@@ -25,7 +25,7 @@
                             </div>
                         </div>
 
-                        <div class="row mb-5">
+                        <div class="row mb-4">
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
@@ -57,6 +57,19 @@
                             </div>
                         </div>
                     </form>
+                    <div class="row mb-0">
+                                <div class="float-login">
+                                    <div class="float-content-login">
+                                        <div class="new">New User?</div>
+                                    </div>
+                                   
+                                    <div class="float-content-login">
+                                        <button id="btn btn-link" type="submit" class="btn-signup">
+                                            {{ __('Sign Up') }}
+                                        </button>
+                                    </div>
+                                </div>
+                    </div>
                 </div>
             </div>
         </div>
