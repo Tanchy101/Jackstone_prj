@@ -55,6 +55,16 @@
     margin-right: 100px;
 }
 
+.redirect-login {
+    text-decoration: none !important;
+    color: black;
+}
+
+.redirect-login:hover {
+    color: black;
+}
+
+
 #logo-container {
     margin-left: -120px;
 }

@@ -78,7 +78,7 @@
                                    
                                     <div class="float-content-signup">
                                         <button id="btn btn-link" type="submit" class="btn-login">
-                                            {{ __('Log In') }}
+                                            <a class="redirect-login" href="{{ url('login') }}">{{ __('Log In') }}</a>
                                         </button>
                                     </div>
                                 </div>

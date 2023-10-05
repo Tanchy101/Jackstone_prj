@@ -60,6 +60,7 @@
     border-color: transparent;
     background-color: transparent;
     font-size: large;
+    
 }
 
 .logo {
@@ -67,7 +68,16 @@
     margin-right: 100px;
     
 }
+.redirect-signup {
+    text-decoration: none !important;
+    color: black;
+}
+
+.redirect-signup:hover {
+    color: black;
+}
 
 #logo-container {
     margin-left: -120px;
 }
+
