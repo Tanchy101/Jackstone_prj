@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,3 +24,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 Route::get('/admin/index', [AdminController::class, 'AdminIndex'])->name('admin.index');
+
+Route::group(['middleware' => ['auth']], function() {
+
+    Route::get('/logout', 'LogoutController@perform')->name('logout.perform');
+});
