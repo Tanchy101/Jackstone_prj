@@ -37,28 +37,4 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
-//this code is where an admin can login using a fixed account into login page
-
-
-    public function index(){
-       
-        if(Auth::id()){
-
-            $admin=Auth()->user()->admin;
-
-            if($admin==1){
-                return view('admin. adminIndex');
-            }
-
-            else if($admin==0){
-                return view('welcome');
-            }
-
-            else {
-                return redirect()->back();
-            }
-        }
-
-    }
-        
 }

@@ -31,6 +31,14 @@
             <li>
                 <a href = "#">Profile</a>
             </li>
+            <li>
+                <a  href="{{ route('logout') }}" >
+                    {{ __('Logout')}}
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                    @crsf
+                </form>
+            </li>
         </ul>
 
     </div>
