@@ -1,5 +1,6 @@
 <?php
-use App\Http\Controllers\ProductController
+
+use App\Http\Controllers\ProductController;
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
@@ -22,7 +23,8 @@ Route::get('/', function () {
 });
 
 Route::get('/product',[ProductController::class,'index'])->name('product.index');
-Route::get('/product/create',[ProductController::class,'create'])->name('product.indcex');
+Route::get('/product/create',[ProductController::class,'create'])->name('product.index');
+Route::post('/product',[ProductController::class,'store'])->name('product.store');
 
 Auth::routes();
 
