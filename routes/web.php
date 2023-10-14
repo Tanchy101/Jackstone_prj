@@ -1,4 +1,5 @@
 <?php
+use App\Http\Controllers\ProductController
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
@@ -19,6 +20,9 @@ use App\Http\Controllers\HomeController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/product',[ProductController::class,'index'])->name('product.index');
+Route::get('/product/create',[ProductController::class,'create'])->name('product.indcex');
 
 Auth::routes();
 
