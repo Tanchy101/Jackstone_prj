@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 10vh;
+    background: #ff5757;
+}
+
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+a{
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.side-menu {
+    position: fixed;
+    background: white;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu .brand-name {
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.brand {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.side-menu li {
+    font-size: 19px;
+    padding: 15px 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu li:hover{
+    background: lightblue;
+    color: black;
+}

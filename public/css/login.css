@@ -1,4 +1,83 @@
 
-.card {
-  margin-top: 200px;
+.card{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -50px;
+    height: 500px;
+    width: 575px;
+    border-radius: 25px;
 }
+
+.card-header{
+    font-size: x-large;
+    margin-left: 14%;
+    margin-top: 25px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.card-body{
+    margin-top: 25px;
+    margin-left: 14%;
+}
+
+.btn{
+    background-color:#ff5757;
+    color: white;
+    height: 50px;
+    width: 375px;
+    margin-left: -160px;
+    border-radius: 10px;
+}
+
+.btn-link{
+    font-size: small;
+    color: black;
+    text-decoration: underline;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.float-login{
+    margin-left: 90px;
+    width: 50%;
+}
+
+.float-content-login{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.new{
+    margin-top: 8px;
+    color: #246bd4;
+    font-size: small;
+
+}
+
+.btn-signup{
+    border-color: transparent;
+    background-color: transparent;
+    font-size: large;
+    
+}
+
+.logo {
+    margin-top: 50px;
+    margin-right: 100px;
+    
+}
+.redirect-signup {
+    text-decoration: none !important;
+    color: black;
+}
+
+.redirect-signup:hover {
+    color: black;
+}
+
+#logo-container {
+    margin-left: -120px;
+}
+

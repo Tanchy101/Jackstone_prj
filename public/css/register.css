@@ -1,41 +1,70 @@
 #card-marg {
-    margin-top: 120px;
-    margin-right: -40px;
-    border-radius: 5%;
-    height: 400px;
+    margin-top: 50px;
+    margin-left: -50px;
+    border-radius: 25px;
+    height: 500px;
+    width: 575px;
 }
 
 #card-hdr {
-    border-radius: 5%;
     font-size: x-large;
-    text-align: center;
-    height: 50px;
-}
-
-.hdr {
-    margin-top: 10px;
+    margin-left: 19%;
+    margin-top: 25px;
 }
 
 #textbox {
-    margin-left: 35px;
+    margin-left: 10px;
 }
 
 #btnreg {
     background-color: #ff5757;
     margin-left: -150px;
-    margin-top: 35px;
-    width: 435px ;
-    height: 45px;
-    border-radius: 2%;
-    
+    margin-top: 20px;
+    width: 375px;
+    height: 50px;   
+    border-radius: 10px;
+}
+
+.float-signup{
+    margin-left: 90px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.float-content-signup{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.alr{
+    margin-top: 7px;
+    color: #246bd4;
+    font-size: small;
+
+}
+
+.btn-login{
+    border-color: transparent;
+    background-color: transparent;
+    font-size: large;
 }
 
 .logo {
-    margin-top: 70px;
-    margin-right: 170px;
-    
+    margin-top: 50px;
+    margin-right: 100px;
 }
 
- #logo-container {
-    margin-left: -190px;
+.redirect-login {
+    text-decoration: none !important;
+    color: black;
+}
+
+.redirect-login:hover {
+    color: black;
+}
+
+
+#logo-container {
+    margin-left: -120px;
 }
